@@ -93,11 +93,10 @@ img {
 	padding: 0 47px;
 }
 #contents h1 {
-	color: #316e66;
-	font: 26px/30px "Times New Roman", Times, serif;
-	margin: 18px 0 20px;
+	color: #5a4535;
+	font: 44px/52px "Times New Roman", Times, serif;
+	margin: 18px 0 30px;
 	padding-left: 2px;
-	text-transform: uppercase;
 }
 #contents div.body h1, #contents h2 {
 	color: #316e66;
@@ -145,13 +144,27 @@ img {
 }
 /** Adbox **/
 #adbox {
-	background: url(../images/bg-adbox.png) no-repeat left top;
+	/*
+	background: url(../images/bg-adbox.png) no-repeat left top;-->
 	width: 852px;
 	margin: 0 auto;
 	padding: 4px 5px 18px;
+	*/
 }
 #adbox p {
 	font-size: 16px;
+}
+#adbox h2 {
+	color: #5a4535;
+	font-weight: bold;
+	font-size: 22px;
+	margin: 0 0 30px;
+}
+#adbox h3 {
+	color: #925628;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0 0 20px;
 }
 .ads {
 	float: right;
