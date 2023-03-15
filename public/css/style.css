@@ -144,15 +144,15 @@ img {
 }
 /** Adbox **/
 #adbox {
-	/*
-	background: url(../images/bg-adbox.png) no-repeat left top;-->
+	background: url(../images/bg-adbox.png) no-repeat left top;
+	background-size: 876px 5600px;
 	width: 852px;
 	margin: 0 auto;
-	padding: 4px 5px 18px;
-	*/
+	padding: 20px;
 }
 #adbox p {
 	font-size: 16px;
+	padding: 0px 20px 20px 20px;
 }
 #adbox h2 {
 	color: #5a4535;
