@@ -78,4 +78,5 @@ process.on('SIGTERM', () => {
 connect();
 
 // Bring in the Mongoose schema
-require('./models/travlr');
+require('./models/trips');
+require('./models/foods');

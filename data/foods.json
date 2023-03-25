@@ -1,18 +1,23 @@
-[
-    {
+{
+    "1": {
+        "code": "SFSP210714",
         "name": "SeaFood Special",
-        "image": "seafoods.jpg", 
         "secondary_name": "Fried Salmon Special",
-        "description": "Data from JSON - I'm a product overview. Here you can write more information about your product. Buyers like to know ..."
-    }, {
+        "image": "seafoods.jpg", 
+        "description": "seafoods... I'm a product overview. Here you can write more information about your product. Buyers like to know ..."
+    },
+    "2": {
+        "code": "SMDS210316",
         "name": "Sumptuous Desserts",
-        "image": "desserts.jpg", 
         "secondary_name": "Choco Ice Cream Sandwich",
-        "description": "Data from JSON - I'm a product overview. Here you can write more information about your product. Buyers like to know ..."
-    }, {
+        "image": "desserts.jpg", 
+        "description": "desserts... I'm a product overview. Here you can write more information about your product. Buyers like to know ..."
+    }, 
+    "3": {
+        "code": "BFFT210117",
         "name": "Buffet",
-        "image": "buffet.jpg", 
         "secondary_name": "Mixed Buffet",
-        "description": "Data from JSON - I'm a product overview. Here you can write more information about your product. Buyers like to know ..."
+        "image": "buffet.jpg", 
+        "description": "buffet... I'm a product overview. Here you can write more information about your product. Buyers like to know ..."
     }
-]
+}
