@@ -3,24 +3,8 @@ const host = process.env.DB_HOST || '127.0.0.1'
 const dbURI = `mongodb://${host}/travlr`;
 const readLine = require('readline');
 
-//COMMENTING OUT: 
-//let dbURL = 'mongodb://127.0.0.1/Loc8r';
-
-//if (process.env.NODE_ENV === 'production') {
-//  dbURL = process.env.DB_HOST || process.env.MONGODB_URI;
-//}
-
 // avoid 'current Server Discovery and Monitoring engine is deprecated'
 mongoose.set('useUnifiedTopology', true);
-
-//COMMENTING OUT:
-//const connect = () => {
-//  setTimeout(() => mongoose.connect(dbURL, { 
-//    useNewUrlParser: true, 
-//    useCreateIndex: true, 
-//    useUnifiedTopology: true 
-//    }), 1000);
-//}
 
 const connect = () => {
     setTimeout(() => mongoose.connect(dbURI, {
@@ -80,3 +64,4 @@ connect();
 // Bring in the Mongoose schema
 require('./models/trips');
 require('./models/foods');
+require('./models/accommodations');
