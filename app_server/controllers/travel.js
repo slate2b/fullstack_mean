@@ -6,7 +6,7 @@ const apiOptions = {
 /* render travel list view */
 const renderTravelList = (req, res, responseBody) => {
     let message = null;
-    let pageTitle = process.env.npm_package_description + ' - Travel';
+    let pageTitle = 'Full Stack MEAN - Travel';
 
     if (!(responseBody instanceof Array)) {
         message = 'API lookup error';

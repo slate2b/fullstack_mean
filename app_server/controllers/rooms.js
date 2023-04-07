@@ -4,7 +4,7 @@ var accommodations = JSON.parse(fs.readFileSync('./data/accommodations.json', 'u
 
 /* GET rooms view */
 const rooms = (req, res) => {
-    res.render('rooms', {title: 'Travlr Getaways', accommodations});
+    res.render('rooms', {title: 'Full Stack MEAN - Rooms', accommodations});
 };
 
 module.exports = {
