@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+<body>
 <h1>Full Stack MEAN Project by slate2b</h1>
 <h3>
   PROJECT OVERVIEW
@@ -19,8 +22,9 @@ This Full Stack MEAN application utilizes the following tools, libraries, module
     <li>Mongoose</li>
     <li>Seedgoose</li>
   </ul>
-</p>
-<h2>Made using static HTML pages, basic CSS, and images from <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a>.</h2>
+</p>  
+<h3>CUSTOMER-FACING TRAVEL PAGE:</h3>
+<img src=https://user-images.githubusercontent.com/88697660/230689936-429f6088-1727-493e-8196-8f62d32f59a1.png>
 <h3>
 PROJECT BRANCH 1
 </h3>
@@ -57,3 +61,6 @@ PROJECT BRANCH 6
 <p>
 The sixth branch of this project created an Angular SPA for admin activities, including adding a new trip and editing existing trips.  The admin SPA is tied to the same MongoDB DB as the customer-facing site through the RESTful API.  
 </p>
+<h3>ANGULAR SPA FOR ADMIN USERS:</h3>
+<img src=https://user-images.githubusercontent.com/88697660/230690045-29a28855-120a-4004-a0d5-c21a4097c43c.png>
+</body>
