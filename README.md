@@ -48,3 +48,9 @@ PROJECT BRANCH 5
 <p>
 The fifth branch of this project focused on creating a Node.js MongoDB RESTful API with routes and endpoints to access the data in the trips collection in MongoDB.
 </p>
+<h3>
+PROJECT BRANCH 6
+</h3>
+<p>
+The sixth branch of this project created an Angular SPA for admin activities, including adding a new trip and editing existing trips.  The admin SPA is tied to the same MongoDB DB as the customer-facing site through the RESTful API.  
+</p>
