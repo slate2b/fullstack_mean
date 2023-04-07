@@ -9,7 +9,7 @@ This project is still a work in progress.
 It started with a static HTML website made with Node.js and Express, working its way to an MVC architecture with MongoDB and a RESTful API.  The most recent updates added an SPA built with Angular for site admins which includes add and edit functionality for data in MongoDB all routed through the RESTful API.  The project will eventually become a dynamic web application with a customer-facing site built with Node.js, Express, and MongoDB on one side, and then an SPA built with Angular for site admins on the other side, complete with user authentication and access control.  
 </p>
 <h3>CUSTOMER-FACING TRAVEL PAGE<h3>
-![Screenshot](Screenshot_fsmean_customer-facing_travel_page.png)
+(Screenshot_fsmean_customer-facing_travel_page.png)
 
 <p>
 This Full Stack MEAN application utilizes the following tools, libraries, modules, etc:
