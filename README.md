@@ -62,5 +62,5 @@ PROJECT BRANCH 6
 The sixth branch of this project created an Angular SPA for admin activities, including adding a new trip and editing existing trips.  The admin SPA is tied to the same MongoDB DB as the customer-facing site through the RESTful API.  
 </p>
 <h3>ANGULAR SPA FOR ADMIN USERS:</h3>
-<img src=https://user-images.githubusercontent.com/88697660/230690045-29a28855-120a-4004-a0d5-c21a4097c43c.png>
+<img src=https://user-images.githubusercontent.com/88697660/231259799-5e986e64-4704-454d-90d4-ba1bdb426cc6.png>
 </body>
