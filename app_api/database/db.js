@@ -65,3 +65,4 @@ connect();
 require('./models/trips');
 require('./models/foods');
 require('./models/accommodations');
+require('./models/user')
