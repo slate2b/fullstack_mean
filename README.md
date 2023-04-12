@@ -67,6 +67,12 @@ PROJECT BRANCH 7
 <p>
 The seventh branch of this project added delete functionality to the Angular SPA for administrators.  
 </p>
+<h3>
+PROJECT BRANCH 8
+</h3>
+<p>
+The eighth branch of this project added authentication to the express backend.  Added api endpoints for registering a new user and logging in, implemented authentication with express-jwt, and then wrapped the addTrip, updateTrip, and deleteTrip API endpoints with the jwt auth.  
+</p>
 <h3>ANGULAR SPA FOR ADMIN USERS:</h3>
 <img src=https://user-images.githubusercontent.com/88697660/231259799-5e986e64-4704-454d-90d4-ba1bdb426cc6.png>
 </body>
