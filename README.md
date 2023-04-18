@@ -48,7 +48,7 @@ PROJECT BRANCH 3 - json_mvc
 Added some additional templating with Handlebars (HBS) as well as working with routes and views to transition from static HTML to dynamic JSON data.
 </p>
 <h4>Travel Page on the Express Site:</h4>
-<img src=https://user-images.githubusercontent.com/88697660/230689936-429f6088-1727-493e-8196-8f62d32f59a1.png>
+<img src=https://user-images.githubusercontent.com/88697660/230689936-429f6088-1727-493e-8196-8f62d32f59a1.png style="width:770px;height:550px;">
 <h3>
 PROJECT BRANCH 4 - mongodb_rough_schema
 </h3>
@@ -76,7 +76,7 @@ PROJECT BRANCH 7 - delete_component
 Added delete functionality to the Angular SPA for administrators.  
 </p>
 <h4>Angular SPA - Trips Page:</h4>
-<img src=https://user-images.githubusercontent.com/88697660/232621091-0b48fbac-e47b-444e-9f82-24d9f8b7a5a1.png>
+<img src=https://user-images.githubusercontent.com/88697660/232621091-0b48fbac-e47b-444e-9f82-24d9f8b7a5a1.png style="width:750px;height:800px;">
 <h3>
 PROJECT BRANCH 8 - backend_authentication
 </h3>
@@ -90,7 +90,7 @@ PROJECT BRANCH 9 - frontend_authentication
 Added authentication to the angular frontend.  Created login, home, and navbar components. Created authresponse and user classes as well as an authentication service. Set up the routes and compoments so that add-trip, edit-trip, and delete-trip components are only available to authenticated users.  Created alerts for invalid data or blank fields in the add-trip and edit-trip components.  Created alerts for successful adds, edits, and deletes as well.  Also worked on CSS styles and HTML structure for multiple components of the SPA. Tested several adds, edits, and deletes through the SPA with various input values.
 </p>
 <h4>Angular SPA - Add Trip:</h4>
-<img src=https://user-images.githubusercontent.com/88697660/232650362-b3ccdb94-a66b-46ae-9729-924c2312edd5.png>
+<img src=https://user-images.githubusercontent.com/88697660/232650362-b3ccdb94-a66b-46ae-9729-924c2312edd5.png style="width:600px;height:680px;">
 <h4>Angular SPA - Trip Added through the SPA:</h4>
-<img src=https://user-images.githubusercontent.com/88697660/232650225-89505a6a-40fb-4f9f-9ae7-5b6dc444643a.png>
+<img src=https://user-images.githubusercontent.com/88697660/232650225-89505a6a-40fb-4f9f-9ae7-5b6dc444643a.png style="width:770px;height:600px;">
 </body>
