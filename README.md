@@ -16,8 +16,6 @@ This MEAN full stack application started as a project for one of my classes at S
 <p>
 The site is made for a fictional client called Bhaccasyoniztas Travel which offers travel packages.  The SPA allows users to view available trips without an authenticated login.  Authenticated users, however, have full CRUD functionality to view, add, edit, and delete trip packages directly through the SPA.  All changes made through the SPA are persisted in MongoDB.  Authentication is driven by express-jwt, and Authorization is handled on the front-end through Angular conditionals and handled on the backend through the API controllers.  
 </p>
-<h3>Angular SPA - Trips Page - Authenticated User</h3>
-<img src=https://user-images.githubusercontent.com/88697660/232621091-0b48fbac-e47b-444e-9f82-24d9f8b7a5a1.png>
 <p>
 This Full Stack MEAN application utilizes the following tools, libraries, modules, etc:
   <ul>
@@ -77,6 +75,8 @@ PROJECT BRANCH 7 - delete_component
 <p>
 Added delete functionality to the Angular SPA for administrators.  
 </p>
+<h3>Angular SPA - Trips Page - Authenticated User</h3>
+<img src=https://user-images.githubusercontent.com/88697660/232621091-0b48fbac-e47b-444e-9f82-24d9f8b7a5a1.png>
 <h3>
 PROJECT BRANCH 8 - backend_authentication
 </h3>
