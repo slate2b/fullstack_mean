@@ -46,6 +46,7 @@ const tripsFindCode = async (req, res) => {
 
 // POST: /trips - creates a new trip
 const tripsAddTrip = async (req, res) => {
+    req.body
     getUser(req, res,  // wrapping the body of the tripsAddTrip function with a call to the getUser function to restrict access to authenticated users only
         (req, res) => {
             Trip
@@ -80,7 +81,7 @@ const tripsUpdateTrip = async (req, res) => {
         (req, res) => {
             Trip
                 .findOneAndUpdate({ 'code': req.params.tripCode }, {
-                    code: req.body.code, 
+                    code: req.body.code,
                     name: req.body.name, 
                     length: req.body.length, 
                     start: req.body.start, 
@@ -144,6 +145,7 @@ const tripsDeleteTrip = async (req, res) => {
     );
 }
 
+// An authorization check which checks for jwt payload and if found uses the email to lookup the user in the db
 const getUser = (req, res, callback) => {
     if (req.payload && req.payload.email) {            
       User

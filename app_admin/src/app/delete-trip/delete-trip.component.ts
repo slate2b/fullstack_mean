@@ -80,7 +80,8 @@ export class DeleteTripComponent implements OnInit {
       this.tripService.deleteTrip(this.deleteForm.value) 
         .then(data => { 
           console.log(data); 
-          this.router.navigate(['']); 
+          alert("Successfully deleted trip.")
+          this.router.navigateByUrl('list-trips');  // Navigates to the trips listing page
         }); 
     } 
   }

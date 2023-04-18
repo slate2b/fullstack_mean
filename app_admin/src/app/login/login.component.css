@@ -1,0 +1,15 @@
+button {
+    background-color: rgb(57, 169, 185);
+    border-color: rgb(57, 169, 185)
+}
+h2 {
+    color: darkslategrey;
+    text-align: left;
+    width: 165px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

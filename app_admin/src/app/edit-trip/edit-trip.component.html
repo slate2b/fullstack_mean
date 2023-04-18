@@ -1,5 +1,5 @@
 <div class="col-md-3"> 
-  <h2 class="text-left">Edit Trip</h2> 
+  <h2 class="text-center">Edit Trip</h2> 
   <form [formGroup]="editForm" (ngSubmit)="onSubmit()"> 
 
     <div class="form-group"> 
@@ -45,12 +45,12 @@
     <div class="form-group"> 
       <label>Resort:</label> 
       <input type="text" formControlName="resort" placeholder="Resort" class="form-control" 
-        [ngClass]="{ 'is-invalid': submitted && f.name.errors }"> 
+        required [ngClass]="{ 'is-invalid': submitted && f.name.errors }"> 
       <div *ngIf="submitted && f.name.errors"> 
         <div *ngIf="f.name.errors.required">Resort is required 
         </div> 
       </div> 
-    </div> 
+    </div>
     
     <div class="form-group"> 
       <label>Per Person:</label> 

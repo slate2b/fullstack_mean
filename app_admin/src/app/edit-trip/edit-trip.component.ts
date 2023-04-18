@@ -6,7 +6,7 @@ import { TripDataService } from '../services/trip-data.service';
 @Component({
   selector: 'app-edit-trip',
   templateUrl: './edit-trip.component.html',
-  styleUrls: ['./edit-trip.component.css']
+  styleUrls: ['./edit-trip.component.css'],
 })
 export class EditTripComponent implements OnInit {
 
@@ -55,12 +55,15 @@ export class EditTripComponent implements OnInit {
   
   onSubmit() { 
     this.submitted = true; 
-    if (this.editForm.valid) { 
+    if (this.editForm.valid) {
       this.tripService.updateTrip(this.editForm.value) 
-        .then(data => { 
+        .then(data => {
           console.log(data); 
-          this.router.navigate(['']); 
+          this.router.navigateByUrl('list-trips');  // Navigates to the trips listing page
+          alert("Successfully updated trip.")
         }); 
-    } 
+    } else {
+      alert("Invalid data and/or incomplete form. Please try again.");
+    }
   }
 }

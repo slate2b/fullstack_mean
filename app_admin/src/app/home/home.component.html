@@ -1,0 +1,36 @@
+<!--When not logged in-->
+<div class="container" *ngIf="!isLoggedIn()">
+  <div class="welcome-banner">
+    <h1>FS MEAN</h1>
+    <h5>- A MEAN Full Stack Project by slate2b -</h5>
+  </div>
+  <!--Trip listing links-->
+  <div class="trips-listing-links">
+    <a class="trips-text-link" href="list-trips">
+      <h3>View Available Trips</h3>
+    </a>
+    <a class="trips-img-link" href="list-trips"><img src="/assets/images/reef1.jpg"></a>
+  </div>
+  <!--Admnin login link-->
+  <div class="login-links">
+    <a class="login-text-link" href="login">
+      <h3>Admin Login</h3>
+    </a>
+    <a class="login-button-link" href="login">
+      <div class="login-button">
+        <h4>Log in</h4>
+      </div>
+    </a>
+  </div>
+</div>
+
+<!--When logged in-->
+<div class="container" *ngIf="isLoggedIn()">
+  <!--Trip listing links-->
+  <div class="trips-listing-links-admin">
+    <a class="trips-text-link" href="list-trips">
+      <h3>Admin Trip Listing</h3>
+    </a>
+    <a class="trips-img-link" href="list-trips"><img src="/assets/images/reef1.jpg"></a>
+  </div>
+</div>

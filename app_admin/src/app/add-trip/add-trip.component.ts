@@ -12,6 +12,7 @@ export class AddTripComponent implements OnInit {
   
   addForm: FormGroup; 
   submitted = false; 
+  public formError: string = '';
   
   constructor( 
     private formBuilder: FormBuilder, 
@@ -39,9 +40,15 @@ export class AddTripComponent implements OnInit {
       this.tripService.addTrip(this.addForm.value) 
       .then( data => { 
         console.log(data); 
-        this.router.navigate(['']);
+        alert("Successfully added trip.")
+        this.router.navigateByUrl('list-trips');  // Navigates to the trips listing page
+      })
+      .catch((message) => {
+        this.formError = message;
+        alert(message);
       });
+    } else {
+      alert("Invalid data and/or incomplete form. Please try again.");
     } 
   } 
-  // get the form short name to access the form fields get f() { return this.addForm.controls; } }
 };  
