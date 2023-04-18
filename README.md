@@ -75,7 +75,7 @@ PROJECT BRANCH 7 - delete_component
 <p>
 Added delete functionality to the Angular SPA for administrators.  
 </p>
-<h4>Angular SPA - Trips Page</h4>
+<h4>Angular SPA - Trips Page:</h4>
 <img src=https://user-images.githubusercontent.com/88697660/232621091-0b48fbac-e47b-444e-9f82-24d9f8b7a5a1.png>
 <h3>
 PROJECT BRANCH 8 - backend_authentication
