@@ -90,7 +90,7 @@ PROJECT BRANCH 9 - frontend_authentication
 Added authentication to the angular frontend.  Created login, home, and navbar components. Created authresponse and user classes as well as an authentication service. Set up the routes and compoments so that add-trip, edit-trip, and delete-trip components are only available to authenticated users.  Created alerts for invalid data or blank fields in the add-trip and edit-trip components.  Created alerts for successful adds, edits, and deletes as well.  Also worked on CSS styles and HTML structure for multiple components of the SPA. Tested several adds, edits, and deletes through the SPA with various input values.
 </p>
 <h4>Angular SPA - Add Trip:</h4>
-<img src=https://user-images.githubusercontent.com/88697660/232628406-39af58c9-2f1e-4f42-8b82-a611600a6985.png>
+<img src=https://user-images.githubusercontent.com/88697660/232650362-b3ccdb94-a66b-46ae-9729-924c2312edd5.png>
 <h4>Angular SPA - Trip Added through the SPA:</h4>
-<img src=https://user-images.githubusercontent.com/88697660/232628454-bdc1c0a5-fec4-417a-bc9b-c7cfcabab1af.png>
+<img src=https://user-images.githubusercontent.com/88697660/232650225-89505a6a-40fb-4f9f-9ae7-5b6dc444643a.png>
 </body>
