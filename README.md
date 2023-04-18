@@ -62,7 +62,7 @@ PROJECT BRANCH 5 - rest_api
 Created a Node.js MongoDB RESTful API with routes and endpoints to access the data in the trips collection in MongoDB. Tested API endpoints using Postman.
 </p>
 <h4>Testing API Endpoints through Postman:</h4>
-<img src=https://user-images.githubusercontent.com/88697660/232626473-d1d64376-a171-4391-b910-1365e1244c63.png style="width:770px;height:550px;">
+<img src=https://user-images.githubusercontent.com/88697660/232626473-d1d64376-a171-4391-b910-1365e1244c63.png style="width:770px;height:520px;">
 <h3>
 PROJECT BRANCH 6 - angular_spa
 </h3>
