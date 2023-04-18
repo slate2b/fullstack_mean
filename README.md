@@ -12,7 +12,7 @@ This project is still a work in progress.
 This MEAN full stack application started as a project for one of my classes at SNHU with a static HTML website made with Node.js and Express based off a free static website template from http://www.freewebsitetemplates.com. Then I moved toward an MVC architecture Handlebars (hbs) views, created data models with Mongoose and created a MongoDB database, and created a RESTful API.  Then I built an Angular Single Page Application (SPA) on top of Node.js / Express MongoDB backend, using the RESTful API, and built authenticated and authorization into the backend and the frontend using express-jwt.  
 </p>
 <h4>Angular SPA - Home Page:</h4>
-<img src=https://user-images.githubusercontent.com/88697660/232655046-201ac91a-5984-49f9-9003-f0d5c4a4f23c.png>
+<img src=https://user-images.githubusercontent.com/88697660/232655046-201ac91a-5984-49f9-9003-f0d5c4a4f23c.png style="width:750px;height:700px;">
 <p>
 The site is made for a fictional client called Bhaccasyoniztas Travel which offers travel packages.  The SPA allows users to view available trips without an authenticated login.  Authenticated users, however, have full CRUD functionality to view, add, edit, and delete trip packages directly through the SPA.  All changes made through the SPA are persisted in MongoDB.  Authentication is driven by express-jwt, and Authorization is handled on the front-end through Angular conditionals and handled on the backend through the API controllers.  
 </p>
